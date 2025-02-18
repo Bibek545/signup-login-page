@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+#username, #email, #password {
+    height: 60px;
+    width: 250px;
+}
+
+button {
+    height: 60px;
+    width: 250px;
+}
+.sign-up {
+    background-color: blue;
+    color: white;
+}
+.log-in {
+    background-color: blue;
+    color: white;
+}
+
+#username:hover, #email:hover, #password:hover {
+    border-color: blue;
+}
+
+.login-container, .signup-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    height: auto;
+    padding: 20px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+}
+
+h5 {
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid #000; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+ } 
+ 
+ h5 span { 
+     background:#fff; 
+     padding:0 10px; 
+ }
